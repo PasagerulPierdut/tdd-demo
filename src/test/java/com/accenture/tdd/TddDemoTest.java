@@ -62,4 +62,13 @@ class TddDemoTest {
         Assertions.assertEquals(expected, values.max());
     }
 
+    @Test
+    void testSecondMaxIsCorrect() {
+        TddDemo tdd = new TddDemo();
+        MaxValues values = tdd.max(List.of(1, 2, 5, 7, 3));
+
+        int expected = 5;
+        Assertions.assertEquals(expected, values.secondMax());
+    }
+
 }
