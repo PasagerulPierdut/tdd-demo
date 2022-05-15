@@ -70,5 +70,4 @@ class TddDemoTest {
         int expected = 5;
         Assertions.assertEquals(expected, values.secondMax());
     }
-
 }
